@@ -48,7 +48,7 @@ var CommentBox = function (_React$Component) {
 			return _react2.default.createElement(
 				'div',
 				null,
-				_react2.default.createElement('input', { type: 'text', placeholder: 'Enter your text here' }),
+				_react2.default.createElement('textarea', { placeholder: 'Enter your text here' }),
 				_react2.default.createElement(
 					'button',
 					{ className: 'btn btn-primary' },

@@ -45,7 +45,8 @@ var HelloWorld = function (_React$Component) {
 		_this.state = {
 			exclamationCount: 1
 		};
-		_this.handleClick = function () {
+		_this.handleClick = function (e) {
+			logger.info('Event: ', e.target);
 			logger.info('Getting more excited! previously ${this.state.exclamationCount} excitements.');
 			_this.setState({ exclamationCount: _this.state.exclamationCount + 1 });
 		};
@@ -66,7 +67,7 @@ var HelloWorld = function (_React$Component) {
 				),
 				_react2.default.createElement(
 					'button',
-					{ onClick: this.handleClick },
+					{ onClick: this.handleClick, className: 'btn btn-primary' },
 					'Get More Excited!'
 				)
 			);

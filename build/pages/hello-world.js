@@ -44,7 +44,7 @@ var SimplePage = function () {
 	}, {
 		key: 'getMetaTags',
 		value: function getMetaTags() {
-			return [{ charset: 'utf8' }, { 'http-equiv': 'x-ua-compatible', 'content': 'ie=edge' }, { name: 'viewport', content: 'width=device-width, initial-scale=1' }, { name: 'description', content: 'hello world, powered by React Server' }, { name: 'generator', content: 'React Server' }];
+			return [{ charset: 'utf8' }, { 'http-equiv': 'x-ua-compatible', 'content': 'ie=edge' }, { name: 'viewport', content: 'width=device-width, initial-scale=1' }, { name: 'description', content: 'hello world test, powered by React Server' }, { name: 'generator', content: 'React Server' }];
 		}
 	}]);
 	return SimplePage;

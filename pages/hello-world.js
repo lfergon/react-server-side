@@ -17,7 +17,7 @@ export default class SimplePage {
 			{charset: 'utf8'},
 			{'http-equiv': 'x-ua-compatible', 'content': 'ie=edge'},
 			{name: 'viewport', content: 'width=device-width, initial-scale=1'},
-			{name: 'description', content: 'hello world, powered by React Server'},
+			{name: 'description', content: 'hello world test, powered by React Server'},
 			{name: 'generator', content: 'React Server'}
 		];
 	}

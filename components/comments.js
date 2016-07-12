@@ -8,7 +8,7 @@ export default class CommentBox extends React.Component {
 	render() {
     return (
 			<div>
-	      <input type="text" placeholder="Enter your text here"/>
+	      <textarea placeholder="Enter your text here"></textarea>
 				<button className="btn btn-primary">Save</button>
 			</div>
     );

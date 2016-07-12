@@ -2,15 +2,18 @@ import React from 'react';
 import HelloWorld from '../components/hello-world';
 import CommentBox from '../components/comments';
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 
 export default class SimplePage {
 
 	getElements() {
-		return [<Navbar/>, <HelloWorld/>, <CommentBox/>];
+		return [<Navbar/>, <HelloWorld/>, <Footer/>];
 	}
 
 	getHeadStylesheets() {
-		return 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css';
+		return [
+			'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'
+		];
 	}
 
 	getMetaTags() {

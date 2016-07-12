@@ -28,6 +28,10 @@ var _navbar = require('../components/navbar');
 
 var _navbar2 = _interopRequireDefault(_navbar);
 
+var _footer = require('../components/footer');
+
+var _footer2 = _interopRequireDefault(_footer);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var SimplePage = function () {
@@ -38,12 +42,12 @@ var SimplePage = function () {
 	(0, _createClass3.default)(SimplePage, [{
 		key: 'getElements',
 		value: function getElements() {
-			return [_react2.default.createElement(_navbar2.default, null), _react2.default.createElement(_helloWorld2.default, null), _react2.default.createElement(_comments2.default, null)];
+			return [_react2.default.createElement(_navbar2.default, null), _react2.default.createElement(_helloWorld2.default, null), _react2.default.createElement(_footer2.default, null)];
 		}
 	}, {
 		key: 'getHeadStylesheets',
 		value: function getHeadStylesheets() {
-			return 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css';
+			return ['https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', './styles/footer.css'];
 		}
 	}, {
 		key: 'getMetaTags',

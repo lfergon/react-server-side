@@ -1,11 +1,12 @@
 import React from 'react';
 import HelloWorld from '../components/hello-world';
 import CommentBox from '../components/comments';
+import Navbar from '../components/navbar';
 
 export default class SimplePage {
 
 	getElements() {
-		return [<HelloWorld/>, <CommentBox/>];
+		return [<Navbar/>, <HelloWorld/>, <CommentBox/>];
 	}
 
 	getHeadStylesheets() {

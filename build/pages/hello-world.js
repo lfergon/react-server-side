@@ -24,6 +24,10 @@ var _comments = require('../components/comments');
 
 var _comments2 = _interopRequireDefault(_comments);
 
+var _navbar = require('../components/navbar');
+
+var _navbar2 = _interopRequireDefault(_navbar);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var SimplePage = function () {
@@ -34,7 +38,7 @@ var SimplePage = function () {
 	(0, _createClass3.default)(SimplePage, [{
 		key: 'getElements',
 		value: function getElements() {
-			return [_react2.default.createElement(_helloWorld2.default, null), _react2.default.createElement(_comments2.default, null)];
+			return [_react2.default.createElement(_navbar2.default, null), _react2.default.createElement(_helloWorld2.default, null), _react2.default.createElement(_comments2.default, null)];
 		}
 	}, {
 		key: 'getHeadStylesheets',
